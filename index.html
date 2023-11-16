@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- https://fontawesome.com/v4/icons/ biblioteca de iconos-->
+    <title>JeevanJaaket</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <h1 class="fa fa-paw"> Centro Veterinario <img src="assets/img/pagina_principal/name5.png" alt=""></h1>
+            <img src="assets/img/pagina_principal/logo1.png" alt="">
+        </div>
+        <div class="contenedor">
+            <label class="fa fa-bars fa-2x" for=""></label>
+            <nav class="menu">
+                <a href="">Inicio</a>
+                <a href="">Servicios</a>
+                <a href="">Productos</a>
+                <a href="">Guarderia</a>
+                <a href="">Promociones</a>
+                <a href="">Nosotros</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="banner">
+            <img src="assets/img/pagina_principal/banner.jpg" alt="">
+            <a href="https://www.freepik.es/vector-gratis/fondo-animal-ilustracion-mascotas-lindas_14723858.htm#query=cats%20and%20dogs&position=49&from_view=search&track=ais">Imagen de rawpixel.com</a> en Freepik
+        </section>
+        <section id="videos">
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5MyITTTq1ZY?si=FDqT1JazyckeRlqR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tV5DNYi6UvI?si=-JG0Celgo4iI7Bvl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div> 
+        </section> 
+        <section id="cuidados">
+            
+                <div id="tarjetas">
+                   <div class="infoanuncios">
+                        <p><img src="assets/img/pagina_principal/healthy.jpg" width="200px" alt="">
+                            Lo que le das de comer las mascotas no es algo que se deba
+                            tomar a la ligera, aprende que es saludable para tu masc...</p>
+                      
+                        <a href="">Ver mas...</a>
+                   </div>
+                   <div class="infoanuncios">
+                        <p><img src="assets/img/pagina_principal/treatwell.jpg" width="200px" alt="">
+                            ¡No te pierdas esta conferencia en vivo sobre como tratar bien a tu mascota! Estaremos este 23 de Oct... 
+                        </p>
+                        
+                        <a href="">Ver mas...</a>
+                   </div>
+                   <div class="infoanuncios">
+                        <p><img src="assets/img/pagina_principal/owner.jpg" width="200px" alt="">
+                            ¡No te pierdas este seminario sobre como ser un dueño
+                            responsable! Estaremos este 28 de Oct...
+                        </p>
+                    
+                        <a href="">Ver mas...</a>
+               </div>
+                </div>
+                <div id="formulario">
+                    <!-- metodo post = envia los datos de forma oculta -->
+                    <!-- metodo get = envia los datos por la url del navegador (visibles) -->
+                    <!-- action = peticion (php) -->
+                    <form action="" method="post">
+                        <h2>Solicitar cita médica</h2>
+                        <label for="">Mascota</label>
+                        <input type="text" placeholder="Ingrese nombre de la mascota">
+                        <br>
+                        <label for="">Edad</label>
+                        <input type="number" placeholder="Ingrese edad">
+                        <br>
+                        <label for="">Raza</label>
+                        <select name="" id="">
+                            <option value="">Seleccione</option>
+                            <option value="">Shih Tzu</option>
+                            <option value="">Boxer</option>
+                            <option value="">Akita</option>
+                        </select>
+                        <br>
+                        <label for="">Fecha</label>
+                        <input type="datetime-local" name="" id="">
+                        <input type="date">
+                        <br>
+                        <label for="">Hora</label>
+                        <input type="time" name="" id="">
+                        <br>
+                        <label for="">Amo</label>
+                        <input type="text" placeholder="Ingrese el nombre del amo">
+                        <br>
+                        <button type="button"> <i class="fa fa-check-square-o"></i> Validar Cita</button>
+                        <button type="reset"> <i class="fa fa-trash"></i> Limpiar</button>
+                    </form>
+                </div>
+            
+        </section>
+
+        <!-- <section id="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15863.72750624323!2d-75.61032004458009!3d6.272688599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429b6b142c265%3A0xe13ddf719df8b972!2sVeterinario%20en%20su%20hogar!5e0!3m2!1ses!2sco!4v1699531437067!5m2!1ses!2sco" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section> -->
+    </main>
+    <footer>
+        <div>
+            <p>Centro Veterinario JeevanJaaket &copy; 2023</p>
+            <p>Línea gratuita: 018000-5555555</p>
+            <p>Correo: centroveterinariojeevanjaaket@gmail.com</p>
+            <div class="redes">
+                <a href=""> <i class="fa fa-whatsapp fa-2x"></i> </a>
+                <a href=""> <i class="fa fa-facebook fa-2x"></i> </a>
+                <a href=""> <i class="fa fa-instagram fa-2x"></i> </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
